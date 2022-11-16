@@ -185,13 +185,9 @@ br{
     font-size: 30px;
   }
   header{
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     padding: 0px 20px 0px 20px;
-    background-color: rgb(245, 215, 215);
-    background: rgb(0, 0, 0); /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient( rgb(138, 136, 126), rgb(255, 255, 255)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient( rgb(138, 136, 126),rgb(255, 255, 255)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient( rgb(138, 136, 126),rgb(255, 255, 255)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(rgb rgb(138, 136, 126), rgb(255, 255, 255)); /* Standard syntax */
+    background-color: rgb(245, 215, 215);box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     width: 2000px;
     margin: 0 auto;
     height: 1600px;
@@ -205,12 +201,8 @@ br{
 }
 
 section{
-    
-    background: rgb(0, 0, 0); /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient( rgb(138, 136, 126), rgb(255, 255, 255)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient( rgb(138, 136, 126),rgb(255, 255, 255)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient( rgb(138, 136, 126),rgb(255, 255, 255)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(rgb rgb(138, 136, 126), rgb(255, 255, 255)); /* Standard syntax */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color: rgb(245, 215, 215);box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     padding: 20px 50px 50px 50px;
     background-color: white;
     width: 1000px;
