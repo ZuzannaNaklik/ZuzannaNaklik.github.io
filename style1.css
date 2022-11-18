@@ -8,10 +8,13 @@ body{
     background: linear-gradient(black, orange);
 }
 em, i { font-style: oblique; }
-h2{
-    font-size: 75px;
-    text-shadow: 2px 2px 5px rgb(255, 102, 0);
-    padding: 30px 90px 90px 30px;
+h2{display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold
 }
 p{
     margin-left: 0;
