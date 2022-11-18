@@ -5,20 +5,24 @@ body{
     background: -webkit-linear-gradient(black, orange);
     background: -o-linear-gradient(black, orange);
     background: -moz-linear-gradient(black, orange);
-    background: linear-gradient(black, orange);}
+    background: linear-gradient(black, orange);
+}
 em, i { font-style: oblique; }}
 h1{
     font-size: 75px;
     text-shadow: 2px 2px 5px rgb(255, 102, 0);
-    padding: 30px 90px 90px 30px;}
+    padding: 30px 90px 90px 30px;
+}
 h2{
     font-size: 46px;
-    color: white;}
+    color: white;
+}
 p{
     margin-left: 0;
     padding: 10px 80px 10px 80px;
     font-size: 25px;
-    display:block}
+    display:block
+}
 img{
     background-color: #000000;
     border: 1px solid rgb(0, 0, 0);
@@ -26,13 +30,15 @@ img{
     padding: 3px;
     display: block;
     margin:0;
-    width: 1000px;}
+    width: 1000px;
+}
 .wrapper {
     display: block;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);}
+    transform: translate(-50%, -50%);
+}
 .button{
       text-decoration: none;
       text-align: center;
@@ -58,45 +64,54 @@ img{
       top: 0;
       left: -70px;
       transform: skewX(-45deg) translateX(0px);
-      transition: none;}
+      transition: none;
+}
 .button:hover{
       background-color: rgb(255, 136, 0);
       color: #000000;
-      border-bottom: 2px solid rgb(255, 136, 0);}
+      border-bottom: 2px solid rgb(255, 136, 0);
+}
 .button:hover:before{
       transform: skewX(-45deg) translateX(250px);
-      transition: all 0.4s ease-in;}
+      transition: all 0.4s ease-in;
+}
 .button1:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     bottom:3px;
-    left:4px;}
+    left:4px;
+}
 .button2:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
     bottom:3px;
-    right:4px;  }
+    right:4px;  
+}
 .button1{
     position: relative;
     bottom : auto;
     left : auto;
-    margin-right: 300px;}
+    margin-right: 300px;
+}
 .button2{
     position: relative;
     bottom : auto;
     margin-left:780px;
-    padding: 0%;}
+    padding: 0%;
+}
 br{
     font-size: 8px;
     text-align: center;
     margin-left: 10px;
     margin-top: 20px;
     margin-right: 50px;
-    margin-bottom: auto;}
+    margin-bottom: auto;
+}
 .btn {
     padding: 5px, 7px;
     text-align: right;
     background-color: green;
     border-radius: 5px;
-    display: inline-block;}
+    display: inline-block;
+}
 header{
     background: rgb(0, 0, 0);
     background: -webkit-linear-gradient(white, aqua);
@@ -111,7 +126,8 @@ header{
     border: 4px solid;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0 220px 440px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+    box-shadow: 0 220px 440px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 section{
     background: rgb(0, 0, 0);
     background: -webkit-linear-gradient(white, aqua);
@@ -124,4 +140,5 @@ section{
     justify-content: center;
     height: 1600px;
     border: 4px solid;
-    box-shadow: 0 220px 440px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+    box-shadow: 0 220px 440px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
