@@ -1,11 +1,11 @@
 body{
     font-family: Arial;
     padding: 90px;
-        background: rgb(0, 0, 0); /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient(black, orange); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(black, orange); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(black, orange); /* For Firefox 3.6 to 15 */
-        background: linear-gradient(black, orange);/* Standard syntax */
+        background: rgb(0, 0, 0);
+        background: -webkit-linear-gradient(black, orange);
+        background: -o-linear-gradient(black, orange);
+        background: -moz-linear-gradient(black, orange);
+        background: linear-gradient(black, orange);
     }
     em, i { font-style: oblique; }
 }
@@ -115,11 +115,11 @@ br{
     display: inline-block;
   }
   header{
-        background: rgb(0, 0, 0); /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient(white, aqua); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(white, aqua); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(white, aqua); /* For Firefox 3.6 to 15 */
-        background: linear-gradient(white, aqua);/* Standard syntax */
+        background: rgb(0, 0, 0);
+        background: -webkit-linear-gradient(white, aqua);
+        background: -o-linear-gradient(white, aqua);
+        background: -moz-linear-gradient(white, aqua);
+        background: linear-gradient(white, aqua);
     padding: 0px 20px 0px 20px;
       width: 2000px;
     margin: 0 auto;
@@ -131,11 +131,11 @@ br{
     box-shadow: 0 220px 440px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 section{
-        background: rgb(0, 0, 0); /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient(white, aqua); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(white, aqua); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(white, aqua); /* For Firefox 3.6 to 15 */
-        background: linear-gradient(white, aqua);/* Standard syntax */
+        background: rgb(0, 0, 0);
+        background: -webkit-linear-gradient(white, aqua);
+        background: -o-linear-gradient(white, aqua);
+        background: -moz-linear-gradient(white, aqua);
+        background: linear-gradient(white, aqua);
     padding: 20px 50px 50px 50px;
     width: 1000px;
     margin: 0 auto;
