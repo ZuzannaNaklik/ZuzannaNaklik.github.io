@@ -1,20 +1,8 @@
 
 <html>
     <head>
-    <center>
-    <big><big><big><big><big><big><big><big><big>
-    <p style="text align: center; color: white; ">Moje strony.</p>
-    </big></big></big></big></big></big></big></big></big>
-    </center>
-    <center>
-    <big><big><big><big><big><big><big>
-    <p style="text align: center; color: white; ">Zuzanna Naklicka</p>
-    </big></big></big></big></big></big></big>
-    </center>
-    <center>
-    </center>
-    <center>
-    </center>
+    <h1 style="text align: center; color: white; ">Moje strony.</h1>
+    <h1 style="text align: center; color: white; ">Zuzanna Naklicka</h1>
     </head>
     <style>
       table, th, tr {
@@ -24,12 +12,45 @@
       background-color: rgb(255, 255, 255);
       border: 1px solid black;                                  
     }
-     body{
-        background-color: rgb(0, 0, 0);
-     }
+              .wrapper { 
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 29%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 29%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 29%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 29%}
+    100%{background-position:0% 82%}
+}
+    
     </style>
     <body>
-    <center>
     <table>
         <tr>
           <th><a href=Książka.html>Książka</a></th> 
@@ -56,6 +77,7 @@
     </th>
        </tr>
     </table>
-    </center>
+
+    <div class="wrapper"></div>
     </body>
     </html>
