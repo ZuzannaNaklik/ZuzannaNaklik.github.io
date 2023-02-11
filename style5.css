@@ -1,5 +1,9 @@
 body {
-        background-color: #8efa00;
+        
+  background-image: url('roze.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
         padding-top: 20px;
         padding-bottom: 40px;
         padding-left: 40px;
