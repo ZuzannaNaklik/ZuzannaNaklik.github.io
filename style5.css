@@ -1,5 +1,6 @@
+
 body {
-        
+  
   background-image: url('roze.jpeg');
   background-repeat: no-repeat;
   background-position: center;
@@ -10,6 +11,7 @@ body {
         padding-right: 40px;
       }
       
+
       .heart {
         display: inline-block;
         width: 200px;
@@ -24,6 +26,7 @@ body {
         
         margin-left:360px;
         margin-bottom: 300px;
+        margin-top: 150px;
         
         
       }
@@ -83,11 +86,16 @@ body {
         100% {background-color: #FF0000;}
       }
       div{
+        background-image: url('gg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
         background-color: rgb(255, 255, 255);
         border: 1px inset rgb(255, 0, 0);
-        border-width: 5px;
+        border-width: 10px;
         border-style: inset;
         border-color: rgb(255, 0, 0);
+        border-bottom-width: 10px;
         position: relative;
       }
       u{
@@ -99,12 +107,12 @@ body {
       i{
         font-size: 30px;
         margin-left:90px;
-        margin-bottom:90px;
       }
       img{
         
-        margin-left: 860px;
+        margin-left: 920px;
         margin-top: 0px;
         margin-bottom:460px;
       }
+      
       
