@@ -1,0 +1,117 @@
+
+body {
+  
+  background-image: url('roze.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+      
+
+      .heart {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        background: #ff0000;
+        border-bottom-right-radius: 5px;
+        position: relative;
+        color: transparent;
+        animation-name: pulse;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+        
+        margin-left:360px;
+        margin-bottom: 300px;
+        margin-top: 150px;
+        
+        
+      }
+      
+      @keyframes rainbow {
+        0% {background-color: #FF0000;}
+        10% {background-color: #E2571E;}
+        20% {background-color: #FF7F00;}
+        30% {background-color: #FFFF00;}
+        40% {background-color: #00FF00;}
+        50% {background-color: #96bf33;}
+        60% {background-color: #0000FF;}
+        70% {background-color: #4B0082;}
+        80% {background-color: #8B00FF;}
+        90% {background-color: #222222;}
+        100% {background-color: #FF0000;}
+        }
+      
+        .heart::after, .heart::before {
+        content: '';
+        width: 200px;
+        height: 200px;
+        background: #ff0000;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: -50%;
+        animation: rainbow 3s  infinite;
+      }
+      
+      .heart::after {
+        top: -50%;
+        left: 0;
+      }
+      
+      @keyframes pulse {
+        0% {
+          transform: scale(1) rotate(45deg);
+        }
+        50% {
+          transform: scale(1.3) rotate(45deg);
+        }
+        100% {
+          transform: scale(1) rotate(45deg);
+        }
+        
+        0% {background-color: #FF0000;}
+        10% {background-color: #E2571E;}
+        20% {background-color: #FF7F00;}
+        30% {background-color: #FFFF00;}
+        40% {background-color: #00FF00;}
+        50% {background-color: #96bf33;}
+        60% {background-color: #0000FF;}
+        70% {background-color: #4B0082;}
+        80% {background-color: #8B00FF;}
+        90% {background-color: #222222;}
+        100% {background-color: #FF0000;}
+      }
+      div{
+        background-image: url('gg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+        background-color: rgb(255, 255, 255);
+        border: 1px inset rgb(255, 0, 0);
+        border-width: 10px;
+        border-style: inset;
+        border-color: rgb(255, 0, 0);
+        border-bottom-width: 10px;
+        position: relative;
+      }
+      u{
+        
+        font-size: 20px;
+        margin-left: 1400px;
+
+      }
+      i{
+        font-size: 30px;
+        margin-left:90px;
+      }
+      img{
+        
+        margin-left: 920px;
+        margin-top: 0px;
+        margin-bottom:460px;
+      }
+      
