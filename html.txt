@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+    
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gra</title>
+    <link rel="stylesheet" href=".style.6.css" />
+
+</head>
+    
+<body>
+           
+    <div class="container" style=" border-radius: 90px; opacity:0.5; margin:50px">
+            
+        <p style="font-size:50px; color:rgb(255, 0, 0)">World of Tanks</p>
+            
+            <p style="font-size:20px;">
+Komputerowa gra symulacyjna typu MMO wyprodukowana i wydana w 2010 roku przez Wargaming.net. Gra oparta jest na modelu płatności free-to-play.
+Rozgrywka skupia się na bitwach pancernych pomiędzy graczami w interakcji player versus player z wykorzystaniem różnego typu wozów bojowych. 
+Gracz ma do dyspozycji ponad 650 pojazdów: czołgów (lekkich, średnich, ciężkich), artylerii samobieżnej, pojazdów kołowych oraz niszczycieli czołgów z okresu od I wojny światowej aż po wczesną zimną wojnę, pochodzących ze Stanów Zjednoczonych, Czechosłowacji, ZSRR, III Rzeszy, Francji, Wielkiej Brytanii, Chin, Japonii, Szwecji, Włoch i Polski. 
+Pojazdy występujące w grze w części są oparte na swoich historycznych odpowiednikach, lecz zmodyfikowane ze względów praktycznych dla rozgrywki, zaś w części bazują na wczesnych projektach lub są to czysto fikcyjne pojazdy.
+W lutym 2013 roku liczba zarejestrowanych graczy przekroczyła 50 milionów. 
+Gra została wpisana do Księgi rekordów Guinnessa w kategorii „największej liczby graczy zalogowanych jednocześnie na jednym serwerze gry MMO” (21 stycznia 2013 na jednym z serwerów rosyjskich zalogowanych było 190 541 graczy). 
+Wcześniejszy rekord również należał do tej gry – 23 stycznia 2011 na serwerze było 91 311 osób.
+            </p>
+
+        <p style="font-size:50px;color:red">Rozgrywka</p>
+            
+            <p style="font-size:20px;">
+                
+Na początku gracz otrzymuje do swojej dyspozycji po jednym czołgu z każdego państwa (Niemiec, ZSRR, Stanów Zjednoczonych, Włoch, Francji, Wielkiej Brytanii, Chin, Japonii, Czechosłowacji, Polski i Szwecji). 
+W miarę zdobywania doświadczenia i kredytów może kupować ulepszenia do danego czołgu oraz rozwijać drzewo technologiczne, które pozwala na odblokowanie kolejnych pojazdów. Ulepszenia pojazdu obejmują silnik, wieżę, układ jezdny, działo oraz radio, co pozwala na eksperymenty i zwiększenie potencjału bojowego. 
+Wszystkie modyfikacje mają swoje historyczne uzasadnienie – istniały jako prototypy lub zostały wprowadzone w rzeczywistośc.
+Gra posiada również system rozwoju załogi – bardziej doświadczona załoga będzie sprawdzała się lepiej na placu boju; załoga z wyszkoleniem 100% będzie szybciej ładowała, naprawiała oraz sprawniej obsługiwała czołg gracza w porównaniu do załogi z mniejszym procentowo wyszkoleniem. 
+Dodatkowo doświadczeni członkowie załogi mogą uczyć się nowych zdolności tzw. perków np. szósty zmysł pozwala dowódcy na określenie czy jego pojazd został wykryty przez wroga. 
+Gracz ma także możliwość zamontowania sprzętu dodatkowego do swojego czołgu, począwszy od siatek kamuflażowych, które zmniejszają ryzyko zauważenia czołgu przez wroga, a kończąc na nowoczesnych systemach naprowadzania (które zwiększają szybkość celowania działa) lub dosyłaczach (które przyspieszają ładowanie działa).
+Istnieje także sprzęt eksploatacyjny, na przykład apteczka, która leczy rannego członka załogi, czy zestaw naprawczy, który naprawia uszkodzony lub zniszczony moduł czołgu do pełnej wartości, w odróżnieniu od automatycznej naprawy, która moduł ciężko uszkodzony naprawia jedynie do stanu lekko uszkodzonego.
+            </p>
+
+        <p style="font-size:50px;color:red">System zniszczeń</p>
+            
+            <p style="font-size:20px;">
+System uszkodzeń czołgów jest wielopoziomowy i zależy od wielu parametrów[19]. 
+Prawdopodobieństwo przebicia pancerza jest uzależnione od parametru penetracji wystrzelonego pocisku, odległości do celu oraz grubości i stopnia nachylenia pancerza w miejscu trafienia. 
+Dodatkowo przy ostrzale wrogiego pojazdu występuje prawdopodobieństwo zerwania gąsienicy, uszkodzeń modułów (na przykład mechanizmu obrotu wieży) czy zapalenia silnika. 
+Przykładowo trafienie w silnik czasem spowoduje jego unieruchomienie, a uszkodzenie wieży skutkuje spowolnieniem jej obrotu aż do momentu jej naprawienia. 
+Istnieje funkcja naprawy, dzięki której po pewnym czasie uszkodzone elementy zostaną zreperowane, ale będą miały zmniejszone możliwości, np. jeżeli silnik zostanie uszkodzony, po naprawie będzie pracował tylko na połowie mocy, uszkodzone działo będzie miało mniejszą celność, 
+uszkodzone radio spowoduje zmniejszony zakres komunikacji, uszkodzona wieża będzie wolniej się obracać itp. 
+Istnieje również możliwość zranienia członka załogi. 
+Ranny czołgista będzie pracował mniej wydajnie i otrzyma również mniej doświadczenia za bitwę. W przypadku zranienia wszystkich załogantów czołg uznawany jest za zniszczony.
+            </p>
+
+        <p style="font-size:50px;color:red">Jednostki</p>
+            
+            <p style="font-size:20px;">
+W grze występuje pięć klas pojazdów – czołgi lekkie, średnie i ciężkie, niszczyciele czołgów oraz artyleria samobieżna. 
+Każdy pojazd przypisany jest do jednego z 10 poziomów (ang. tier), który określa stopień zaawansowania pojazdu. 
+Rozpoczynając, gracz ma do dyspozycji wyłącznie pojazdy pierwszego poziomu, a dostęp do kolejnych modeli, zorganizowanych w drzewa technologiczne (oddzielne dla każdego państwa), uzyskuje wydając na nie zdobyte w trakcie gry punkty doświadczenia i kredyty niezbędne do zakupu. 
+Dodatkowo istnieje niewielka liczba pojazdów nieznajdujących się w żadnej gałązce technologii (tzw. „czołgi premium”), które można otrzymać za złoto (to z kolei nabywane jest za realne pieniądze) lub kupić na stronie, bądź przyznawane są okolicznościowo (m.in. za udział w beta testach, 
+zakup pudełkowej wersji gry, w ramach promocji dla nowych graczy, wygranie kampanii wojen klanów lub prezenty z okazji świąt lub ważnych dat). 
+Pojazdy te często są konstrukcjami zagranicznymi (zdobycznymi bądź pochodzących od wojsk sojuszniczych) lub prototypowymi.
+            </p>
+            
+        <p style="font-size:50px;color:red">Klany</p>
+
+            <p style="font-size:20px;">
+Gra oferuje możliwość stworzenia klanu, dołączenia do niego oraz rywalizacji pomiędzy innymi o zdobyte tereny na mapie świata. 
+Do jednego klanu może dołączyć aż stu graczy (razem z założycielem). 
+Dzięki klanowi można rozdawać zdobyte złoto z podbitych terenów między innych graczy, czy też można stoczyć walkę o nie na globalnej mapie.
+            </p>
+
+        <p style="font-size:50px;color:red">Plutony</p>
+            
+            <p style="font-size:20px;">
+Gracze od wersji 8.5 mają możliwość wspólnej gry do trzech graczy naraz w jednej bitwie bez posiadania konta premium, wcześniej mogło w ten sposób grać jedynie dwóch użytkowników bez konta premium, oraz bez ograniczeń co do poziomu czołgów. 
+Dzięki temu gracze należący do plutonu mają możliwość gry razem w jednej drużynie podczas bitwy losowej.
+            </p>
+            
+        <a href="html.txt" button class="button button5">HTML</button></a>
+        <a href="css.txt" button class="button button5">CSS</button></a>
+        
+    </div>
+
+    <header>
+
+        <h1></h1>
+
+    </header>
+
+</body>
+</html>
