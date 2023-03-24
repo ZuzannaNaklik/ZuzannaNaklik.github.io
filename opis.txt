@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl"></html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style7.css" />
+</head>
+<body>
+  
+
+<div class="mobile-container" style=" border-radius: 45px;  margin:10px; opacity:0.9">
+
+<div class="topnav" style=" border-radius: 10px; ">
+    <a href="sport.html" class="active" >Home</a>
+  <div id="myLinks">
+    
+    <a href="zasady.html">Zasady</a>
+    <a href="Reprezentant.html">Reprezentant dyscypliny</a>
+      <a href="Film.html">Film</a>
+    <a href="Opis.html">Opis idola</a>
+    <a href="+.html">Dodatkowo</a>
+
+    
+  </div>
+  <a href="#" class="icon" onclick="Coś()">
+    <i class="fa fa-bars"></i>
+  </a>
+  
+</div>
+
+<div style="padding-left:16px;">
+  <h1 style="font-size: 60px; text-align: center;">Opis typa</h1>
+
+  <p>
+    Ronaldinho lub Ronaldinho Gaúcho właśc. Ronaldo de Assis Moreira; ur. 21 marca 1980 w Porto Alegre – brazylijski piłkarz, 
+    który grał zazwyczaj na pozycji pomocnika lub napastnika, mistrz świata 2002, mistrz Ameryki Południowej, zwycięzca Ligi Mistrzów 2006. 
+    Posiada obywatelstwo brazylijskie i hiszpańskie.
+    Został dwukrotnie uznany Piłkarzem Roku przez FIFA (2004, 2005), a także UEFA w roku 2005, a magazyn France Football w 2005 roku nagrodził go Złotą Piłką. 
+    W 2004 roku został wybrany przez Pelégo na listę FIFA 100 (100 najlepszych żyjących piłkarzy w historii).
+    W 2018 ukarany za budowanie platformy rybackiej w strefie ochronnej jeziora Guaíba, przez co stracił brazylijski paszport. 
+    Dwa lata później został zatrzymany na terenie Paragwaju, gdzie posługiwał się sfałszowanymi dokumentami.
+</p>
+
+  <p style="font-size: 28px;">Życiorys</p>
+  
+  <p>
+    Ronaldo de Assis Moreira urodził się 21 marca 1980 roku w Porto Alegre. Dzieciństwo spędził w jednej z ubogich dzielnic tego miasta – Vila Nova. 
+    Koledzy ze szkoły nazywali go czarnym snajperem bramek, gdyż już w szkole podstawowej widoczny był jego talent piłkarski. Właśnie w tym basenie João zmarł na atak serca. 
+    Ronaldinho miał 8 lat w chwili śmierci swojego ojca. Od tego momentu bardzo zżył się ze swoją matką Migueliną, natomiast rolę ojca rodziny przejął starszy brat, Roberto. 
+    Ten z kolei, gdy musiał przedwcześnie zakończyć karierę piłkarską z powodu kontuzji, został agentem utalentowanego młodszego brata.
+    25 stycznia 2005 roku na świat przyszedł João – syn Ronaldinho i Janainy Natielle Viany Mendes. Dziecko dostało imię po zmarłym dziadku.
+    Pod koniec 2006 roku Ronaldinho otworzył w São Paulo „Instytut Ronaldinho”, gdzie dzieci z ubogich rodzin mogą doskonalić swoje umiejętności piłkarskie.
+    Po tym, jak były piłkarz z bratem bezprawnie, bez zezwolenia, wybudowali platformę rybacką w obszarze chronionym, zostali ukarani karą finansową w wysokości 2 milionów dolarów. 
+    W związku z nieudaną próbą wyegzekwowania zapłaty, otrzymali zakaz opuszczania kraju, a także zatrzymano ich paszporty. 
+</p>
+
+  <p style="font-size: 28px;">Kariera piłkarska</p>
+  
+  <p>
+    Talent Brazylijczyka został zauważony przez działaczy Grêmio Porto Alegre i właśnie w tym klubie Ronaldinho zaczął stawiać swoje pierwsze piłkarskie kroki. 
+    Dzięki tak obiecującym początkom kariery, nie musiał długo czekać na debiut w seniorskiej reprezentacji.
+    Ronaldinho odegrał bardzo ważną rolę strzelając m.in. 2 bramki Realowi Madryt w derbach Hiszpanii (Real Madryt 0:3 FC Barcelona). 
+    W następnym sezonie (2006/2007) była bardzo zaciekła walka o mistrzostwo Hiszpanii i w pierwszej połowie sezonu Ronaldinho starał się jak mógł i nawet pod nieobecność 
+    Eto’o walczył o tytuł najlepszego strzelca, ale gdy kameruński piłkarz wrócił, a zarazem dołączył Messi (około początku drugiej połowy sezonu), 
+    bardzo dobrze asystował kolegom z drużyny. 5 września 2014 r. podpisał kontrakt z meksykańskim zespołem Querétaro FC. 
+    Później występował jeszcze we Fluminense FC. 16 stycznia 2018 poinformował o przejściu na sportową emeryturę.
+  </p>
+  <p style="font-size: 28px;">Reprezentacja</p>
+
+  <p>
+    Z reprezentacją Brazylii U-17 zdobył mistrzostwo świata do lat 17 (został także królem strzelców tego turnieju). 
+    W dorosłej reprezentacji debiutował w 1999 roku w meczu przeciwko Łotwie (3:0), a pierwszego gola zdobył w meczu z Wenezuelą.
+    W meczu z Anglią – prócz zdobycia bramki z około 40 m (przelobował bramkarza) – został również ukarany czerwoną kartką, co wykluczyło go z udziału w półfinale. 
+    Jednak Ronaldinho wystąpił w meczu finałowym przeciwko Niemcom wygranym przez Brazylię 2:0. Zagrał też na mistrzostwach świata w Niemczech. 
+    W 2008 roku został dodatkowo włączony do kadry U-23 prowadzonej przez Carlosa Dungę na igrzyska olimpijskie w Pekinie, gdzie razem z reprezentacją Brazylii zdobył brązowy medal. 
+    Ronaldinho nie został powołany na mistrzostwa świata w 2010 w Południowej Afryce. Powrócił do reprezentacji gdy trenerem canarinhos został Mano Menezes. 
+    Pierwszy mecz pod wodzą nowego trenera zagrał, po ponad półtorarocznej przerwie, 17 listopada 2010 w meczu przeciwko Argentynie.
+   </p>
+  
+</div>
+</div>
+
+<script>
+function Coś() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
