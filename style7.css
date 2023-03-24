@@ -1,0 +1,77 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+  }
+  
+  .mobile-container {
+    max-width: max px;
+    margin: auto;
+    background-color: lightseagreen;
+    height: 1000px;
+    color: lightgoldenrodyellow;
+    border-radius: 10px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: lightsalmon;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    float: left;
+    color: lightcyan;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a.icon {
+    float: right;
+  }
+  
+  .topnav a:hover {
+    background-color: white;
+    color: lightsalmon;
+  }
+  
+  .active {
+    background-color: lightpink;
+    color: lightsalmon
+  }
+  
+
+  ul {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    }
+    
+    li a {
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 1.2em;
+    width: 130px;
+    text-decoration: none;
+    color: aqua;
+    background-color: blue;
+    padding: 10px 15px;
+    margin: 0px 1px 1px 0px;
+    border: 1px solid navy;
+    border-radius: 3px;
+    box-shadow: 0px 2px 3px gray;
+    }
+    
+    li a:hover {
+    color: blue;
+    background: aqua;
+    border: 1px solid blue;
+    }
