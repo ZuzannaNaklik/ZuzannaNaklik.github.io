@@ -27,7 +27,7 @@
   </a>
 </div>
 
-<div style="padding-left:16px; ">
+<div>
   <h1 style="font-size: 45px; text-align: center; ">Najważniejsze zasady w piłce nożnej</h1>
   <p>WYKROCZENIA – Za wszelkie wykroczenia (nieczyste zagranie, agresję etc.) zawodnik może zostać ukarany przez sędziego kartką. 
     Żółta oznacza ostrzeżenie, dwie w ciągu jednego meczu wykluczenie z dalszej gry. 
