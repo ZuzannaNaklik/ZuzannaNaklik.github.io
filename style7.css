@@ -1,15 +1,40 @@
-
+@media only screen and (max-width: 900px) {
+  #menu {width:88%; position:absolute; height:30px;}
+  #menu h5 {display: none;}
+  #menu ul li {display: inline; }
+  #menu ul li:after {content: " |";}
+  #content {width: 98%;position:relative; top: 30px;margin-top:5%;}
+}
+* {margin:0px; padding: 0px;}
+body { font: 16px Verdana; line-height:1.6; background: #EDE6DE; }
+#wrapper { width:90%; overflow:hidden; margin: 0 auto; }
+a {color: #354458;}
+#header { height:100px;    background: #354458; margin: 0 0 10px 0; }
+#header h1 {padding: 20px; color: #E9E0D6;}
+#content { width:75%; background: #EB7260; float:left; padding:1%; overflow:hidden; }
+#menu {    background: #548BC2; width:20%; float:right; padding:1%; overflow:hidden; }
+#menu h5 {padding:3px 3px 15px 3px; font-size:14px;}
+#menu ul li {list-style-type:none; padding:0 0 0 10px;}
+img{
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: blanchedalmond;
     background-image: url(piłkan.jpg);
-    background-repeat: no-repeat;
-  background-position: center;
+    background-repeat: initial;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   background-size: 100%;
-  }
+  max-width: 100%;
+  height: auto;
+  width: auto;}
   
   .mobile-container {
-    max-width: max px;
+    max-width: 100%;
     margin: auto;
     background-color: lightseagreen;
     height: 1000px;
