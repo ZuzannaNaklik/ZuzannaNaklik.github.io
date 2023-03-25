@@ -33,7 +33,7 @@
   <p></p>
   <p><strong></strong></p>
   
-<center><img src="piłka.jpg" width="1200" height="700" alt="Tutaj jest obrazek" ></center>
+<center><img src="piłka.jpg" alt="Tutaj jest obrazek" ></center>
 </div>
 </div>
 
