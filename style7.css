@@ -21,6 +21,12 @@ img{
   height: auto;
   width: auto;
 }
+table, tr, td {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: blanchedalmond;
@@ -31,15 +37,18 @@ body {
     background-attachment: fixed;
   max-width: 100%;
   height: auto;
-  width: auto;}
+  display:block;
+}
   
   .mobile-container {
     max-width: 100%;
+    min-height: 1000px;
     margin: auto;
     background-color: lightseagreen;
-    height: 1000px;
     color: lightgoldenrodyellow;
     border-radius: 10px;
+    height: auto;
+  width: auto;
   }
   
   .topnav {
