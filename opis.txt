@@ -29,7 +29,7 @@
   
 </div>
 
-<div>
+<div style="padding-left:16px; padding-right:16px; ">
   <h1 style="font-size: 60px; text-align: center;">Opis typa</h1>
 
   <p>
