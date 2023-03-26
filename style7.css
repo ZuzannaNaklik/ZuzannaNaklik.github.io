@@ -20,6 +20,7 @@ img{
   max-width: 100%;
   height: auto;
   width: auto;
+  border-radius: 40px;
 }
 table, tr, td {
   max-width: 100%;
