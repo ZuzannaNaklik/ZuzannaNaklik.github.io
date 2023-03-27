@@ -104,7 +104,7 @@ body {
     cursor: pointer;
   }
   .button5 {
-    background-color: greenrgb(0, 255, 157);
+    background-color: green;
     color: blue;
     border: 2px solid violet;
   }
@@ -113,3 +113,6 @@ body {
     background-color: violet;
     color: lightgreen
   }
+h1{max-width: 100%;
+  height: auto;
+  width: auto;}
