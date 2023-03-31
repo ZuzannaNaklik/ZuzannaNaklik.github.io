@@ -8,33 +8,41 @@
 </head>
 <body>
   
-
-<div class="mobile-container" style=" border-radius: 45px;  margin:10px; opacity:0.9">
-
-<div class="topnav" style=" border-radius: 10px; ">
-  <a href="sport.html" class="active" >Home</a>
-  <div id="myLinks">
+  <div class="mobile-container" style=" border-radius: 45px;  margin:10px; opacity:0.9">
+  
+    <h1><span>SPORT</span> </h1>
+  
+  <header>
+  <section>
+  <a href="https://www.linkedin.com/in/sutharmayur" id="logo" target="_blank"></a>
+  
+  <label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+  <input type="checkbox" id="toggle-1">
+  
+  <nav>
+  <ul>
+  <li><a href="sport.html"><i class="icon-home"></i>Sport</a></li>
+  <li><a href="zasady.html"><i class="icon-user"></i>Zasady</a></li>
+  <li><a href="Reprezentant.html"><i class="icon-thumbs-up-alt"></i>Reprezentant</a></li>
+  <li><a href="Film.html"><i class="icon-gear"></i>Film</a></li>
+  <li><a href="Opis.html"><i class="icon-picture"></i>Opis</a></li>
+  <li><a href="Dodatkowe.html"><i class="icon-phone"></i>Dodatkowe</a></li>
+  </ul>
+  </nav>
+  </header>
     
-    <a href="zasady.html">Zasady</a>
-    <a href="Reprezentant.html">Reprezentant dyscypliny</a>
-      <a href="Film.html">Film</a>
-    <a href="Opis.html">Opis idola</a>
-    <a href="Dodatkowe.html">Dodatkowo</a>
-    
-  </div>
   <a href="#" class="icon" onclick="Coś()">
-    <i class="fa fa-bars"></i>
+    
   </a>
-</div>
 
-<div style="padding-left:16px; padding-right:16px; ">
+<div style="padding-left:16px; ">
   <h1 style="font-size: 100px; text-align: center;">Informacje dodatkowe</h1>
   <p>
     Informacje o Ronaldinho brałam z wikipedi
   </p>
   <p>Łukasz puk pomógł mi naleźć film, wiec niech sor wstawi mu punkty za pomoc w nauce (+10)</p>
   <p>Dał pomysł o kim moge napisać ponieważ nie interesuje sie sportem (wole grać na kompie)</p>
-  <a href="sport" button class="button button5">Sport</button></a>
+  <a href="sport.txt" button class="button button5">Sport</button></a>
   
   <a href="zasady.txt" button class="button button5">Zasady</button></a>
   
@@ -43,21 +51,21 @@
   <a href="Reprezentant dyscypliny.txt" button class="button button5">Reprezentant</button></a>
   
   <a href="opis.txt" button class="button button5">Opis</button></a>
+  <a href="Dodatkowe.txt" button class="button button5">Dodatkowe</button></a>
         <a href="style7.css" button class="button button5">css</button></a>
 </div>
 </div>
 
-<script>
-function Coś() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
+
+
+
+
+</section>
+
+</section>
+</div>
 
 
 </body>
 </html>
+
