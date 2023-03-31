@@ -1,0 +1,135 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.container {
+  display: flex;
+  height:600px;
+  width:800px;
+  position:relative;
+  border-style:groove;
+  border-color:rgb(9, 255, 0);
+  -webkit-box-shadow: -13px 6px 24px 0px rgb(0, 1, 5);
+  -moz-box-shadow: -13px 6px 24px 0px rgb(0, 0, 0);
+  box-shadow: -13px 6px 24px 0px rgb(0, 0, 0);
+  }
+html, body{margin:0px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  }
+body{
+  background-image: url(pisanki.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+.img1{
+  height:280px;
+  width:420px;
+  z-index:1;
+  position:absolute;            
+  }
+.el{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  transform:translateY(-100px);
+  width:fit-content;
+  height:100px;
+  z-index:2;
+  font-size:20px;
+  font-family:'Anton';
+  justify-content: center;
+  align-items: center;
+  }
+.el2{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  width:fit-content;
+  height:100px;
+  z-index:2;
+  font-size:40px;
+  font-family:'Anton';
+  justify-content: center;
+  align-items: center;
+  color:rgb(228, 255, 77);
+  text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+  }
+.left {
+  width: 50%;
+  background-color: rgb(215, 230, 173);
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  border-style: dashed;
+  }      
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  z-index:3;         
+  }    
+.bottom {
+  height:50%;
+  background-color: rgb(94, 255, 102);
+  border-style: dashed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.gify.net/data/media/1725/baranek-wielkanocny-ruchomy-obrazek-0039.gif");       
+  }
+.top {
+  height:50%;
+  background-color: rgb(159, 250, 39);
+  border-style: dashed;
+  display: flex;
+  align-items:flex-start;
+  justify-content: flex-end;
+  }
+.button {
+  border-radius: 90px; opacity:0.6;
+  background-color: rgb(199, 245, 35);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+.button {
+  background-color: green(0, 255, 157);
+  color: rgb(238, 255, 0);
+  border: 2px solid rgb(130, 238, 139);
+  }
+.button:hover {
+  background-color: rgb(130, 238, 157);
+  color: rgb(229, 238, 144)
+}
+</style>
+  </head>
+<div class="container">
+<div class="left"><div class="el"><center><br>
+  <br>
+  <br><h1>Dla sorki Agnieszki Palikot</h1>
+    Wishing you a very Happy Easter that is filled with plenty of love and happiness.
+  </center></div><span class="heart"></span>
+</div>
+<div class="right">
+<div class="top"><img src="https://animowane-gify.pl/uploads/Bazie w szklance.gif" style="height:220px;width:220px;"></img></div>
+<div class="bottom"><a class="el2"><center><br>OD KLASY 1TP</center></a></div>
+</div>
+</div>
+<a href="Wielkanoc.txt" button class="button button">HTML i CSS</button></a>
+</html>
