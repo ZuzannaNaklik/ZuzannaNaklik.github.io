@@ -1,0 +1,272 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+    
+html, body {
+  margin: 0;
+  height: 100%;
+}
+    
+* {
+  font-family: "Raleway";
+  box-sizing: border-box;
+}
+    
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ff0202;
+  background: linear-gradient(to left, rgb(255, 0, 0), rgb(253, 40, 40), rgb(255, 99, 99), rgb(252, 171, 171), rgb(255, 209, 209));
+  color: white;
+  height: 50px;
+  padding: 1em;
+      
+}
+    
+.menu {
+    display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+      
+}
+    
+.menu > li {
+  margin: 0 1rem;
+  overflow: hidden;
+}
+    
+.menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+    
+#menu-toggle {
+  display: none;
+}
+    
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: white;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+    
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+    
+.menu-button::after {
+  content: '';
+  margin-top: 8px;
+}
+    
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+    
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: black(255, 255, 255, 0);
+}
+    
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+    
+@media (max-width: 700px) {
+  .menu-button-container {
+    display: flex;
+  }
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid rgb(0, 0, 0);
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(11, 11, 11);
+  }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid gray;
+  }
+}
+.mobile-container {
+  min-height: 90px;
+  color: lightgoldenrodyellow;
+  background: linear-gradient(to right, rgb(255, 0, 0), rgb(253, 40, 40), rgb(255, 99, 99), rgb(252, 171, 171), rgb(255, 209, 209));
+  opacity: 0.9;
+  margin-top: -6px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blanchedalmond;
+  background-image: url("sztuka.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  max-width: 100%;
+  height: auto;
+  display:block;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a, 
+span {
+  display: block;
+  font-size: 26px;
+  font-family: Helvetica;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  border-radius: 90px; opacity:0.8;
+  background-color: rgb(238, 104, 104);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button {
+  background-color: green(0, 255, 157);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 0, 0);
+}
+  
+.button:hover {
+  background-color: rgb(241, 43, 43);
+  color: rgb(0, 0, 0)
+}
+
+img{
+  width: fit-content;
+  width: 1864px;
+  position: relative;
+  margin-top: 490px;
+  height: 920px;
+  max-width: 100%;
+	height: auto;
+    
+}
+
+div#kartka {
+  position: relative;
+}
+
+h2#tekst_na_obrazek {
+  position: absolute;
+  top: 100px;
+  text-align: center;
+  text-shadow: 2px 2px 1px rgb(255, 0, 0);
+  font-size: 100px;
+  max-width: 100%;
+	height: auto;
+}
+
+h1{
+  text-shadow: 2px 2px 1px rgb(255, 0, 0);
+  text-decoration: dashed;
+  text-align: center;
+  font-size: 100px;
+  max-width: 100%;
+	height: auto;
+  margin-top: 180px;
+  margin-bottom: -100px;
+}
+
+iframe{
+  max-width: 100%;
+	height: 900px;
+}
+
+p{
+  text-shadow: 2px 2px 1px rgb(255, 0, 0);
+  text-align: center;
+  font-size: 70px;
+}
+
+.image{
+    float: center;
+    position: relative;
+}
+ 
+.image img{
+  width: fit-content;
+  width: 1864px;
+  position: relative;
+  margin-top: 0px;
+  height: 920px;
+  max-width: 100%;
+	height: auto;
+}
+ 
+.sport{
+    position: absolute;
+    background:  rgba(0, 0, 0, 0.5);
+    width: 50%;
+    padding: 1%;
+    text-align: center;
+    top:50%;
+    left: 50%;
+    font-size: 20px;
+    color: #fff;   
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border-radius: 20%;
+  
+}

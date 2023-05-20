@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>Wakacje</title>
+<link rel="stylesheet" href="stylewakacje.css">
+
+</head>
+
+<body>
+  <section class="top-nav"><div></div>
+  <input id="menu-toggle" type="checkbox" />
+<label class='menu-button-container' for="menu-toggle">
+  <div class='menu-button'></div> 
+</label>
+<ul class="menu">
+  <li><a href="#1" style="color: azure;">wino</a></li>
+  <li><a href="#2" style="color: azure;">video</a></li>
+  <li><a href="#3" style="color: azure;">morze</a></li>
+  <li><a href="#4" style="color: azure;">Grando</a></li>
+  <li><a href="#5" style="color: azure;">Sanremo</a></li>
+  <li><a href="#6" style="color: azure;">Chioggia</a></li>
+  <li><a href="#7" style="color: azure;">HTML i CSS</a></li>
+</ul>
+  </section>
+
+  
+<h1 style=>Moje wymarzone Wakacje</h1>
+
+
+<div class="mobile-container" style="margin-top: 500px;"><span id="1"></span><p>z winem</p></span></div>
+
+
+<div class="image">
+  <img src="wino.jpg" style="margin-top: 0px;"></img>
+  <div class="sport">
+      <h2>Wina z których niewątpliwie słynie ten region to: Barolo, Barbera, Dolcetto, Nebbiolo. Wenecja Euganejska (region Veneto), szczycący się produkcją wina na skalę przemysłową. Najsłynniejsze białe i czerwone wina tego regionu to Soave, Valpolicella, Amarone, Bardolino, Prosecco, Recioto.</h2>
+  </div>
+</div>
+
+<div class="mobile-container"><span id="2"></span><p style="margin-top: -10px;">wino winogronowe</p></span></div>
+  
+<iframe width="1864px" height="900px" src="https://www.youtube.com/embed/JWqKHwdUaNY" title="Winnica Srebrna Góra | The Silver Mountain Vineyard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;" allowfullscreen></iframe>
+  
+<div class="mobile-container"><span id="3"></span><p style="margin-top: -10px;">morze</p></span></div>
+
+<div class="image">
+  <img src="morze.jpg"></img>
+  <div class="sport">
+      <h2>Najpiękniejsza plaża na Sycylii</h2>
+       <h2> Kameralne miasteczko, dobra baza wypadowa do zwiedzania zachodniej Sycylii</h2>
+       <h2>Sezon trwa tu od maja do końca września</h2>
+  </div>
+</div>
+
+<div class="mobile-container"><span id="4"></span><p style="margin-top: -10px;">Grando</p></span></div>
+
+
+<div class="image">
+  <img src="grando.jpg"></img>
+  <div class="sport">
+
+      <h2>Elegancki kurort z piaszczystymi plażami i przepiękną starówką</h2>
+       <h2> Kurort leży blisko granicy włosko-austriackiej – szybko tu dojedziemy</h2>
+       <h2>Międzynarodowe towarzystwo – dużo Niemców (niestety), Austriaków i Czechów</h2>
+  </div>
+</div>
+
+<div class="mobile-container"><span id="5"></span><p style="margin-top: -10px;">Sanremo</p></span></div>
+
+<div class="image">
+  <img src="cayno.jpg"></img>
+  <div class="sport">
+    <h2>Miasto legenda – jest tu Teatr Ariston, kasyno (lubie hazard), stylowe hotele i kamienice</h2>
+    <h2>Piaszczyste i żwirowe plaże, port jachtowy</h2>
+    <h2>Można urządzać sobie jednodniowe wycieczki na Lazurowe Wybrzeże</h2>
+</div>
+</div>
+
+<div class="mobile-container"><span id="6"></span><p style="margin-top: -10px;">Chioggia</p></span></div>
+
+<div class="image">
+  <img src="Chioggia.jpg"></img>
+  <div class="sport">
+    <h2>Blisko Wenecji i blisko samochodem z Polski (miasto leży w Veneto)</h2>
+    <h2>Bardzo szerokie, piaszczyste plaże z łagodnym zejściem do morza</h2>
+    <h2>Urokliwe historyczne centrum, możliwość popłynięcia statkiem do Wenecji</h2>
+</div>
+</div>
+
+<div class="mobile-container"><span id="7"></span><p style="margin-top: -10px;">  <a href="#" button class="button button">HTML</button></a>
+  <a href="#" button class="button button">CSS</button></a></p></span></div>
+
+
+</div>
+</body>
+
+  
+  
