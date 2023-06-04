@@ -1,0 +1,115 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.container {
+  display: flex;
+  height:600px;
+  width:800px;
+  position:relative;
+  border-style:groove;
+  border-color:rgb(9, 255, 0);
+  -webkit-box-shadow: -13px 6px 24px 0px rgb(0, 1, 5);
+  -moz-box-shadow: -13px 6px 24px 0px rgb(0, 0, 0);
+  box-shadow: -13px 6px 24px 0px rgb(0, 0, 0);
+  }
+html, body{margin:0px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  }
+body{
+  background-image: url(pisanki.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+.img1{
+  height:280px;
+  width:420px;
+  z-index:1;
+  position:absolute;            
+  }
+.el{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  transform:translateY(-100px);
+  width:fit-content;
+  height:100px;
+  z-index:2;
+  font-size:20px;
+  font-family:'Anton';
+  justify-content: center;
+  align-items: center;
+  }
+.el2{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  width:fit-content;
+  height:100px;
+  z-index:2;
+  font-size:40px;
+  font-family:'Anton';
+  justify-content: center;
+  align-items: center;
+  color:rgb(240, 94, 27);
+  text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+  }
+.left {
+  width: 50%;
+  background-color: rgb(215, 230, 173);
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  border-style: solid;
+  background: linear-gradient(to right, rgb(0, 255, 170),rgb(35, 255, 182),rgb(70, 255, 193),rgb(81, 252, 195),rgb(122, 255, 211),rgb(170, 255, 227));
+  }      
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  z-index:3;     
+  background: linear-gradient(to left, rgb(0, 255, 170),rgb(35, 255, 182),rgb(70, 255, 193),rgb(81, 252, 195),rgb(122, 255, 211),rgb(170, 255, 227));    
+  }    
+.bottom {
+  height:50%;
+  background-color: rgb(94, 150, 255);
+  border-style: solid;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('koniec.jpeg');     
+  background: linear-gradient(to left, rgb(0, 255, 170),rgb(35, 255, 182),rgb(70, 255, 193),rgb(81, 252, 195),rgb(122, 255, 211),rgb(170, 255, 227));  
+  }
+.top {
+  height:50%;
+  background-color: rgb(48, 143, 207);
+  border-style: solid;
+  display: flex;
+  align-items:flex-start;
+  justify-content: flex-end;
+  background: linear-gradient(to left, rgb(0, 255, 170),rgb(35, 255, 182),rgb(70, 255, 193),rgb(81, 252, 195),rgb(122, 255, 211),rgb(170, 255, 227));
+  }
+</style>
+  </head>
+<div class="container">
+<div class="left"><div class="el"><center><br>
+  <br>
+  <br><h1>Dla sorki Agnieszki Palikot</h1>
+  May your dedication and passion for teaching continue to inspire and empower students for years to come. Wishing you a well-deserved break and a joyful summer!
+  </center></div><span class="heart"></span>
+</div>
+<div class="right">
+<div class="top"><img src="https://animowane-gify.pl/uploads/Bazie w szklance.gif" style="height:220px;width:220px;"></img></div>
+<div class="bottom"><a class="el2"><center><br>OD KLASY 1TP</center></a></div>
+</div>
+</div>
+</html>
