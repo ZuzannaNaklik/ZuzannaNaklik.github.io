@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+background-color: #f8f9fa;
+text-align: center;
+padding: 20px;
+background-image: url('sw.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+height: 100vh; 
+}
+
+
+h1 {
+    color: red;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.calendar-button {
+    background-color: rgb(93, 238, 9);
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.calendar-button:hover {
+    background-color: #30cc00;
+    color: rgb(93, 238, 9);
+}
+
+.calendar-button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#content {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(93, 238, 9);
+    border: 2px solid red;
+    border-radius: 8px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advent Calendar</title>
+    <link rel="stylesheet" href="kalstyle.css"/>
+</head>
+<body>
+
+    <h1>✧ 𝒦𝒶𝓁𝑒𝓃𝒹𝒶𝓇𝓏 𝒜𝒹𝓌𝑒𝓃𝓉𝑜𝓌𝓎 ✧</h1>
+
+    <div class="calendar">
+
+        <button class="calendar-button" onclick="showContent(1)" id="day1">1</button>
+        <button class="calendar-button" onclick="showContent(2)" id="day2">2</button>
+        <button class="calendar-button" onclick="showContent(3)" id="day3">3</button>
+        <button class="calendar-button" onclick="showContent(4)" id="day4">4</button>
+        <button class="calendar-button" onclick="showContent(5)" id="day5">5</button>
+        <button class="calendar-button" onclick="showContent(6)" id="day6">6</button>
+        <button class="calendar-button" onclick="showContent(7)" id="day7">7</button>
+        <button class="calendar-button" onclick="showContent(8)" id="day8">8</button>
+        <button class="calendar-button" onclick="showContent(9)" id="day9">9</button>
+        <button class="calendar-button" onclick="showContent(10)" id="day10">10</button>
+        <button class="calendar-button" onclick="showContent(11)" id="day11">11</button>
+        <button class="calendar-button" onclick="showContent(12)" id="day12">12</button>
+        <button class="calendar-button" onclick="showContent(13)" id="day13">13</button>
+        <button class="calendar-button" onclick="showContent(14)" id="day14">14</button>
+        <button class="calendar-button" onclick="showContent(15)" id="day15">15</button>
+        <button class="calendar-button" onclick="showContent(16)" id="day16">16</button>
+        <button class="calendar-button" onclick="showContent(17)" id="day17">17</button>
+        <button class="calendar-button" onclick="showContent(18)" id="day18">18</button>
+        <button class="calendar-button" onclick="showContent(19)" id="day19">19</button>
+        <button class="calendar-button" onclick="showContent(20)" id="day20">20</button>
+        <button class="calendar-button" onclick="showContent(21)" id="day21">21</button>
+        <button class="calendar-button" onclick="showContent(22)" id="day22">22</button>
+        <button class="calendar-button" onclick="showContent(23)" id="day23">23</button>
+        <button class="calendar-button" onclick="showContent(24)" id="day24">24</button>
+    </div>
+
+    <div id="content"></div>
+
+    <script>
+        function showContent(day) {
+            var contentDiv = document.getElementById('content');
+            var button = document.getElementById('day' + day);
+    
+            button.disabled = true;
+    
+            if (day === 1) {
+                contentDiv.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/k45AJhW-Fu0" frameborder="0" allowfullscreen></iframe>';
+            } else if (day === 2) {
+                contentDiv.innerHTML = '<img src="zycz1.jpg" alt=""400" height="400">';
+            } else if (day === 3) {
+                contentDiv.innerHTML = "Świąt białych, pachnących choinką, skrzypiących śniegiem pod butami, spędzonych w ciepłej, rodzinnej atmosferze, pełnych niespodziewanych prezentów. Świąt dających radość i odpoczynek, oraz nadzieję na Nowy Rok, żeby był jeszcze lepszy niż ten, co właśnie mija.";
+            } else if (day === 4) {
+                contentDiv.innerHTML = "Staropolskim obyczajem, gdy w Wigilię gwiazda wstaje, Nowy Rok zaś cyfrę zmienia, wszyscy wszystkim ślą życzenia. Przy tej pięknej sposobności i ja życzę Ci radości, aby Tobie się darzyło, z roku na rok lepiej było.";
+            } else if (day === 5) {
+                contentDiv.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/V0Rijwybce8" frameborder="0" allowfullscreen></iframe>';
+            } else if (day === 6) {
+                contentDiv.innerHTML = "Renifer Rudolf grzeje kopyta, Mikołaj w pośpiechu prezenty chwyta. Wszystkie smutki wnet pójdą w kąt - serdecznie życzę wesołych świąt.";
+            } else if (day === 7) {
+                contentDiv.innerHTML = "Niech magiczna moc wigilijnego wieczoru przyniesie Ci spokój i radość. Niech każda chwila świąt Bożego Narodzenia żyje własnym pięknem, a Nowy Rok obdaruje Ciebie pomyślnością i szczęściem. Najpiękniejszych świąt Bożego Narodzenia!";
+            } else if (day === 8) {
+                contentDiv.innerHTML = '<img src="zycz2.jpg" alt="width="560" height="315">';
+            } else if (day === 9) {
+                contentDiv.innerHTML = '<img src="zycz3.jpg" alt="width="560" height="315">';
+            } else if (day === 10) {
+                contentDiv.innerHTML = "Tysiąc choinek w lesie, prezentów, ile Mikołaj uniesie, bałwana ze śniegu, mniej życia w biegu, oraz tyle radości ile karp ma ości.";
+            } else if (day === 11) {
+                contentDiv.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/yJg7U_3MaFc"" frameborder="0" allowfullscreen></iframe>';
+            } else if (day === 12) {
+                contentDiv.innerHTML = "Choinki świecącej, gwiazdy błyszczącej. Pysznej kolacji i sylwestrowej libacji. Gwiazdora trzeźwego, kaca ogromnego, wspaniałych wrażeń i spełnienia marzeń.";
+            } else if (day === 13) {
+                contentDiv.innerHTML = '<img src="zycz4.jpg" alt="width="560" height="315">';
+            } else if (day === 14) {
+                contentDiv.innerHTML = "Świątecznego nastroju, miłosnego podboju. Sexu w łóżeczku, pieniędzy w woreczku. Finlandii na stole, porsche w stodole.";
+            } else if (day === 15) {
+                contentDiv.innerHTML = "Świętego w kominie, prezentów po szyję, zielonej choinki, prezentów trzy skrzynki, zimnego szampana i sylwka do rana!";
+            } else if (day === 16) {
+                contentDiv.innerHTML = '<iframe width="560" height="315" src="https://www.youtube.com/embed/4hzcfXhOjxI" frameborder="0" allowfullscreen></iframe>';
+            } else if (day === 17) {
+                contentDiv.innerHTML = "W domach ciepło, świątecznie, choinka wiruje światłami, stosy prezentów piętrzą się wokół, świat wypełniony jest życzeniami. Wesołych świąt Bożego Narodzenia.";
+            } else if (day === 18) {
+                contentDiv.innerHTML = '<img src="zycz5.jpg" alt="width="560" height="315">';
+            } else if (day === 19) {
+                contentDiv.innerHTML = "Za oknem ciemno, cichutko puszyste ścielą się płatki. Niech serca się z sercem podzielą jak wigilijnym opłatkiem.";
+            } else if (day === 20) {
+                contentDiv.innerHTML = "W te święta magiczne - życzenia ślę liczne. Pachnących jodełek, z ogromem światełek. Olbrzymich prezentów, od wesołych elfów. Pod obrusem sianka, a za oknem bałwanka.";
+            } else if (day === 21) {
+                contentDiv.innerHTML = '<img src="zycz6.jpg" alt="width="560" height="315">';
+            } else if (day === 22) {
+                contentDiv.innerHTML = '<img src="zycz7.jpg" alt="width="560" height="315">';
+            } else if (day === 23) {
+                contentDiv.innerHTML = "W Wigilię Bożego Narodzenia Gwiazda Pokoju drogę wskaże. Zapomnijmy o uprzedzeniach, otwórzmy pudła słodkich marzeń. Niechaj Aniołki z Panem Bogiem, jak Trzej Królowie z dary swymi, staną cicho za Twoim progiem, by spełnić to, co dotąd było snami. Ciepłem otulmy naszych bliskich i uśmiechnijmy się do siebie. Świąt magia niechaj zjedna wszystkich, niech w domach będzie Wam jak w niebie...";
+            } else if (day === 24) {
+                contentDiv.innerHTML = '<img src="zycz8.jpg" alt="width="560" height="315">';
+            }
+        }
+    </script>
+
+</body>
+</html>
